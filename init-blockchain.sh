@@ -2,7 +2,6 @@
 
 cd polygon-edge
 
-# Generate genesis block
 ./polygon-edge genesis --consensus ibft \
   --block-gas-limit 10000000 \
   --epoch-size 100000 \
@@ -11,4 +10,4 @@ cd polygon-edge
   --name "MyTokenChain" \
   --dir ./genesis.json
 
-echo "Genesis file created at polygon-edge/genesis.json"
+cd ..
