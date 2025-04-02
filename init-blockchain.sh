@@ -6,7 +6,7 @@ cd polygon-edge
 ./polygon-edge genesis --consensus ibft \
   --block-gas-limit 10000000 \
   --epoch-size 100000 \
-  --premine 0x85da99c8a7c2c95964c8efd687e95e632fc533d6:1000000000000000000000 \
+  --premine 0xc2e5650f84Eeb9e4011afbb398108ea302cB17A6:1000000000000000000000 \
   --chain-id 12345 \
   --name "MyTokenChain" \
   --dir ./genesis.json
