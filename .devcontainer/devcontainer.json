@@ -1,0 +1,22 @@
+{
+  "name": "Polygon Edge EVM",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "1.18"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "16"
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.Go",
+        "solidity-lang.solidity",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
+}
